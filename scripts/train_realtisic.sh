@@ -1,0 +1,2 @@
+set -ex
+python train.py --dataroot ./datasets/deblur_syth --name deblur_syth_B2A_pix2pix_realistic_BGAN_noise --model realistic --direction BtoA --lambda_L1 100 --netG unet_256 --norm none --dataset_mode aligned  --pool_size 10
